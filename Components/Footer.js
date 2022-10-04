@@ -3,7 +3,7 @@ import styled from "styled-components";
 export default function Footer() {
   return (
     <StyledFooter>
-      <p>Made with ♥</p>
+      <FooterText>Made with ♥</FooterText>
     </StyledFooter>
   );
 }
@@ -15,4 +15,9 @@ const StyledFooter = styled.footer`
   position: fixed;
   bottom: 0;
   left: 0;
+`;
+
+const FooterText = styled.p`
+  color: lightcoral;
+  margin: 20px;
 `;
