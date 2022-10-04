@@ -1,12 +1,15 @@
-import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
+import styled from "styled-components";
 
 export default function Home() {
   return (
-    <div>
+    <StyledContainer>
       <h1>My recipes App</h1>
       <p>Find the best recipes for every occasion.</p>
-    </div>
+    </StyledContainer>
   );
 }
+
+const StyledContainer = styled.div`
+  margin-top: 50px;
+  margin-left: 30px;
+`;
