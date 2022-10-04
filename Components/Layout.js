@@ -15,5 +15,6 @@ export default function Layout({ children }) {
 const StyledMain = styled.main`
   background-color: lightgrey;
   height: 100vh;
+
   padding: 40px 0;
 `;
